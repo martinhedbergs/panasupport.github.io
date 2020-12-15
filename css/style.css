@@ -1,0 +1,129 @@
+body {
+    margin: auto;
+}
+
+.content {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Druk Wide Bold", sans-serif;
+    text-transform: uppercase;
+    font-size: 75px;
+    color: #2B2B2A;
+}
+
+h2 {
+    font-family: "Druk Wide Bold", sans-serif;
+    text-transform: uppercase;
+    color: #2B2B2A;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Bitter", sans-serif;
+    font-size: 20px;
+    color: #2B2B2A;
+}
+
+h4 {
+    font-family: "Druk Wide Medium", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #2B2B2A;
+}
+
+.heading {
+    text-align: center;
+    background-color:#EFFF70 ;
+    margin: auto;
+    padding: 10px;
+}
+
+.ecard {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.supportheader {
+    font-family: Arial , "Nimbus Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color:#F7F5F2;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color:#F7F5F2;
+}
+
+.image {
+    filter: drop-shadow(-30px 30px 0px #392457);
+    padding-left: 100px;
+}
+
+.logo {
+    float: left;
+    padding-left: 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 150px 150px;
+    background-color:#EFFF70;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F7F5F2;
+    text-transform: uppercase;
+  }
+
+li {
+    float: right
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    color: #2B2B2A;
+    font-family: "Druk Wide Medium", sans-serif;
+    font-size: 15px;
+    height: 45px;
+    line-height: 45px;
+}
+
+li a:hover {
+    background-color: #EFFF70;
+}
+
+.logo a:hover {
+    background-color: transparent;
+}
+
+.ecard a {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2B2B2A;
+}
