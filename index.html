@@ -14,13 +14,12 @@
 </head>
 
 <body>
-
   <!-- Navigation -->
-  <div class="navigation"></div>
+  <div class="navigation" id="navbar"></div>
   <ul>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#">Who We Are</a></li>
-    <li><a href="#">What We Do</a></li>
+    <li><a href="#contact-us">Contact</a></li>
+    <li><a href="#who-we-are">Who We Are</a></li>
+    <li><a href="#what-we-do">What We Do</a></li>
     <li class="logo"><a href="#"><img src="resources\images\panagora-logo.png" width="50px"></a></li>
   </ul>
   </div>
@@ -33,7 +32,7 @@
   </div>
 
   <!-- What We Do -->
-  <div class="first">
+  <div class="first" id="what-we-do">
     <div class="wedo">
       <h2>
         What We Do
@@ -69,7 +68,7 @@
   </div>
 
   <!-- Who We Are-->
-  <div class="heading">
+  <div class="heading" id="who-we-are">
     <h2>Who We Are</h2>
   </div>
   <div class="second">
@@ -107,13 +106,33 @@
     </div>
   </div>
 
-  <!-- Contact -->
-  <div class="contact">
+  <!-- Contact US -->
+  <div class="contact" id="contact-us">
     <div class="contactus">
       <h2>Contact Us</h2>
-      <h3>Use the form to the right to get in touch with us.</h3>
+      <h3>What can we help you with?</h3>
+      <img src="resources\images\search.png">
+      <h4 class="ssupport">Support</h4>
+      <p>Report an error for Edge related issues OR guidance on how to do something in the manager.</p>
+      <img src="resources\images\plus.png">
+      <h4 class="sservicedesk">Service Desk</h4>
+      <p>Inquiry about help to do something for you. E.g. exports, create an offer or remove a customer.</p>
+      <img src="resources\images\administration.png">
+      <h4 class="soperations">Operations</h4>
+      <p>All error reports covering operations. E.g. Request for scaling or site being slow.</p>
+      <img src="resources\images\gift.png">
+      <h4 class="sraffle">Raffle</h4>
+      <p>Help with Raffles, import/export of lists e.t.c.</p>
+      <img src="resources\images\chip.png">
+      <h4 class="sbotm">Bot Management</h4>
+      <p>Bot management inquiries for clients using the EDGE platform.</p>
+      <img src="resources\images\robotic.png">
+      <h4 class="sbmaas">Bot Management As A Service</h4>
+      <p>Bot management inquiries for clients on other platforms.</p>
     </div>
-    <div class="form" align="center">
+
+  <!-- Contact Form -->
+    <div class="form">
       <form>
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name"><br>
@@ -121,12 +140,30 @@
         <input type="text" id="organization" name="organization"><br>
         <label for="email">Email:</label><br>
         <input type="text" id="email" name="email"><br>
+        <label for="ttype">What do you need help with?</label><br>
+        <select id="ttype" name="type">
+          <option value="support">Support</option>
+          <option value="servicedesk">Service Desk</option>
+          <option value="operations">Operations</option>
+          <option value="raffle">Raffle</option>
+          <option value="botmanagement">Bot Management</option>
+          <option value="bmaas">BMAAS</option>
+        </select><br>
         <label for="comment">Your Message:</label><br>
-        <input type="textarea" id="comment" name="comment" style="height:200px;"><br>
+        <input type="textarea" id="comment" name="comment"><br>
         <button type="button" class="submit" onclick="alert('Thank you!')">Submit</button>
       </form>
     </div>
   </div>
+
+  <!-- Footer -->
+  <footer>
+    <h1>
+      Panagora <div class="supportheader"> Support</div>
+    </h1>
+    <a href="mailto:support@panagora.se" class="supportmail">support@panagora.se</a>
+    <a href="#" class="logolink"><img src="resources\images\panagora-logo.png" width="50px">
+  </footer>
 </body>
 
 </html>
