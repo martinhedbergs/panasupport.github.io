@@ -1,7 +1,6 @@
 body {
     margin: auto;
     max-width: 1920px;
-    border-style: 1px #FFF;
 }
 
 .content {
@@ -185,6 +184,6 @@ input {
     width: 600px;
     margin-bottom: 10px;
 
-.submit {
-    width: 600px;
+button.submit {
+    width: 150px;
 }
